@@ -8,5 +8,5 @@
   } else if (agent.startsWith(start) && agent.endsWith(end) && agent.length == (start.length + end.length + 5)) {
     language(agent.substring(start.length, start.length + 2))
   } else {
-    //location.href = "https://en.wikipedia.org/wiki/Abiogenesis"
+    location.href = "https://en.wikipedia.org/wiki/Abiogenesis"
   }
